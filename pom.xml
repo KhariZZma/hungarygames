@@ -13,7 +13,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>11</maven.compiler.release>
+        <maven.compiler.release>17</maven.compiler.release>
         <javafx.version>19</javafx.version>
         <javafx.plugin.version>0.0.8</javafx.plugin.version>
         <gluonfx.plugin.version>1.0.16</gluonfx.plugin.version>
@@ -89,7 +89,7 @@
                         <list>com.kopyshov.sample.main</list>
                     </bundlesList>
                     <reflectionList>
-                        <list>com.kopyshov.MainController</list>
+                        <list>com.kopyshov.Simulation</list>
                     </reflectionList>
                 </configuration>
             </plugin>

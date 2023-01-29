@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2544bec8-6c63-4690-92e5-5d9d74483921" name="Changes" comment="" />
+    <list default="true" id="2544bec8-6c63-4690-92e5-5d9d74483921" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kopyshov/actionmap/ActionMapModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kopyshov/actionmap/GraphNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kopyshov/entities/EntityModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kopyshov/entities/creatures/Carnivore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kopyshov/entities/creatures/Creature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kopyshov/entities/creatures/Herbivore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kopyshov/entities/obstacles/Rock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kopyshov/entities/obstacles/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kopyshov/views/ActionMapView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kopyshov/views/CarnivoreView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kopyshov/views/HerbivoreView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kopyshov/views/RockView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kopyshov/views/TreeView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/carnivoreview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/catview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kopyshov/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kopyshov/Simulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/carnivore (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/carnivore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/free-icon-arcade-824540.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/free-icon-assasin-3426321.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/free-icon-grass-1460638.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/grass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/free-icon-message-3978458.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/message.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/free-icon-skull-and-bones-8078653.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/skull.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/free-icon-tree-7484785.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/tree.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/havana-brown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/herbivore (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/herbivore.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/herbivore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/octagon (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/octagon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/paving.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/icons/polygon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/kopyshov/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kopyshov/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/kopyshov/main.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +49,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -49,6 +93,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -85,6 +133,10 @@
       <workItem from="1674756103541" duration="4045000" />
       <workItem from="1674831233972" duration="1251000" />
       <workItem from="1674833414633" duration="242000" />
+      <workItem from="1674833665550" duration="5150000" />
+      <workItem from="1674839460876" duration="608000" />
+      <workItem from="1674840697413" duration="12999000" />
+      <workItem from="1674897325267" duration="34042000" />
     </task>
     <servers />
   </component>
@@ -101,5 +153,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
